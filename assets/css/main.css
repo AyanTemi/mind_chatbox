@@ -3897,3 +3897,15 @@
 			}
 
 	}
+
+/* Sign up */
+
+#signUpBtn {
+	background-color: #444444;
+	border: 1px solid transparent;
+	border-radius: 8px;
+	box-shadow: #fff;
+	cursor: pointer;
+	color: #fff;
+	padding:7px;
+}
