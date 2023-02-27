@@ -22,6 +22,7 @@
                         <li><a href="about.html">About</a></li>
                         <li><a href="contact.html">Contact</a></li>
                         <li><a href="services.html">Services</a></li>
+                        <li><a href="login.html">Login</a></li>
                         <li>
                             <a href="#">Features</a>
                             <ul>
@@ -39,11 +40,11 @@
             </nav>
         </header>
 <!-- Main -->
-        <main>
-            <section>
-                <h2>Create an account!</h2>
-                <hr>
-                <p>Looking for a way to access exclusive content and unlock special features?
+        <main class="main-signupClient">
+            <section class="signupClient-Section1">
+                <h2 class="signupClient-h2">Create an account!</h2>
+                <hr class="signupClient-hr">
+                <p class="signupClient-p">Looking for a way to access exclusive content and unlock special features?
                     Look no further than our sign-up page! By creating an account,
                     you'll gain access to a world of personalized experiences tailored just for you.
                     Our simple and secure sign-up process takes just a few minutes, and you'll be up 
@@ -52,22 +53,22 @@
                     Don't miss out on this opportunity to join our community of like-minded individuals.
                     Sign up today and start enjoying all the benefits of membership! </p>
             </section>
-            <section>
+            <section class="signupClient-Section2">
                 <div class="box">
                     <form method="post" action="#">
-                        <div>
+                        <div class="signupClient-input-div">
                             <div>
-                                <input type="text" name="First Name" placeholder="First Name" id="" value="">
+                                <input type="text" name="First Name" placeholder="First Name" id="input-field1" class="input-field" value="" required>
                             </div>
                             <div>
-                                <input type="text" name="Last Name" placeholder="Last Name" id="" value="">
+                                <input type="text" name="Last Name" placeholder="Last Name" id="input-field2" class="input-field" value="" required>
                             </div>
                             <div>
-                                <input type="email" name="Email" placeholder="Email" id="" value="">
+                                <input type="email" name="Email" placeholder="Email" id="input-field3" class="input-field" value="" required>
                             </div>
                             <div>
-                                <label for="country">Country</label>    
-                                <select id="country" name="country" class="form-control">
+                                <!-- <label for="country">Country</label>     -->
+                                <select title="Country" id="country" name="country" class="form-control" required>
                                     <option value="Afghanistan">Afghanistan</option>
                                     <option value="Åland Islands">Åland Islands</option>
                                     <option value="Albania">Albania</option>
@@ -315,12 +316,12 @@
                                 </select>
                             </div>
                             <div>
-                                <input type="text" name="Username" placeholder="Username" id="" value="">
+                                <input type="text" name="Username" placeholder="Username" id="input-field4" class="input-field" value="" required>
                             </div>
                             <div>
-                                <input type="password" name="password" placeholder="Password" id="" value="">
+                                <input type="password" name="password" placeholder="Password" id="input-field5" class="input-field" value="" required>
                             </div>
-                            <div>
+                            <div class="signUpBtn-Client-Div">
                                 <button type="submit" id="signUpBtn">Sign Up</button>
                             </div>
                         </div>

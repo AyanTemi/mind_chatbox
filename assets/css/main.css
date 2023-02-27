@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
 
 /*
-	Alpha by HTML5 UPs
+	Alpha by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
@@ -3898,14 +3898,200 @@
 
 	}
 
-/* Sign up */
+	/* Login */
+	.main-login {
+		background-color: inherit;
+		margin-top: 50px;
+	}
 
-#signUpBtn {
-	background-color: #444444;
-	border: 1px solid transparent;
-	border-radius: 8px;
-	box-shadow: #fff;
-	cursor: pointer;
-	color: #fff;
-	padding:7px;
-}
+	.main-login-section1 {
+		text-align: center;
+		margin: 60px;
+	}
+
+	.main-login-hr {
+		width: 50%;
+		margin: auto auto 20px auto;
+	}
+
+	.main-login-section2 {
+		height: 400%;
+		width: 50%;
+		margin: auto;
+	}
+
+	.input-icons i {
+		position: absolute;
+	}
+	  
+	.input-icons {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	  
+	.icon {
+		padding: 10px;
+		color: #444444;
+		min-width: 50px;
+		text-align: center;
+	}
+	  
+	.login-input {
+		width: 100%;
+		padding: 10px;
+		text-align: center;
+	}
+	  
+	.loginBtnDiv {
+		text-align: center;
+		margin: auto auto 50px auto;
+	}
+	#loginBtn {
+		background-color: #444444;
+		color: #fff;
+		border: 1px solid transparent;
+		border-radius: 7px;
+		width: 60%;
+		padding: 10px;
+		margin-top: 30px;
+	}
+
+	#login-p {
+		text-align: right;
+	}
+
+	/* SignUp Main */
+	.main-signup {
+		background-color: inherit;
+		margin-top: 50px;
+	}
+
+	.main-signup-section {
+		text-align: center;
+		margin: 60px;
+	}
+
+	.main-signup-btn {
+		width: 60%;
+		height: 30px;
+		padding: 10px;
+		background-color: #444444;
+		border: 1px solid transparent;
+		border-radius: 7px;
+	}
+
+	.main-signup-btn > a {
+		text-decoration: none;
+		color: #fff;
+		font-size: 1rem;
+	}
+
+	#box-signup-btn {
+		height: 200px;
+		width: 50%;
+		margin: auto auto 90px auto;
+		padding: 20px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+	}
+
+	/* Sign up as a client*/
+	.main-signupClient {
+		background-color: inherit;
+		margin-top: 50px;
+	}
+
+	.signupClient-Section1 {
+		text-align: center;
+		margin: 60px;
+	}
+
+	.signupClient-Section2 >.box {
+		height: 600px;
+		width: 50%;
+		margin: auto auto 50px auto;
+	}
+
+	.signupClient-input-div {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+	}
+
+	.input-field {
+		padding: 10px;
+		width: 100%;
+
+	}
+
+	.signUpBtn-Client-Div{
+		text-align: center;
+		margin: 70px auto auto auto;
+		width: 60%;
+	}
+
+	#signUpBtn {
+		width: 60%;
+		height: 30px;
+		padding: 10px;
+		background-color: #444444;
+		color: #fff;
+		border: 1px solid transparent;
+		border-radius: 7px;
+	}
+
+	/* Sign up as a therapist*/
+
+	.main-signupTherapist {
+		background-color: inherit;
+		margin-top: 50px;
+	}
+
+	.signupTherapist-Section1 {
+		text-align: center;
+		margin: 60px;
+	}
+
+	.signupTherapist-Section2 >.box {
+		height: 900px;
+		width: 50%;
+		margin: auto auto 50px auto;
+	}
+
+	.signupTherapist-input-div {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+	}
+
+	.input-field {
+		padding: 10px;
+		width: 100%;
+
+	}
+
+	.signUpBtn-Therapist-Div{
+		text-align: center;
+		margin: 70px auto auto auto;
+		width: 60%;
+	}
+
+	#Experience {
+		height: 150px;
+	}
+
+	#signUpBtn {
+		width: 60%;
+		height: 30px;
+		padding: 10px;
+		background-color: #444444;
+		color: #fff;
+		border: 1px solid transparent;
+		border-radius: 7px;
+	}
+
+	
+
+

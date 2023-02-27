@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/svg+xml" href="images/MindWellness.png" />
     <link rel="stylesheet" href="assets/css/main.css">
-    <title>SignUp</title>
+    <title>Login</title>
 </head>
-<body class="is-preload">
+<body>
     <div id="page-wrapper">
         <!-- Header -->
         <header id="header">
@@ -41,29 +41,36 @@
         </header>
 
         <!-- Main -->
-        <main class="main-signup">
-            
-            <section class="main-signup-section">
-                <h2 class="main-signup-h2">Create an account!</h2>
-                <hr class="main-signup-hr">
-                <p class="main-signup-p">Looking for a way to access exclusive content and unlock special features?
-                    Look no further than our sign-up page! By creating an account,
-                    you'll gain access to a world of personalized experiences tailored just for you.
-                    Our simple and secure sign-up process takes just a few minutes, and you'll be up 
-                    and running in no time. Plus, as a member, you'll be the first to hear about our 
-                    latest updates and exciting new features.
-                    Don't miss out on this opportunity to join our community of like-minded individuals.
-                    Sign up today and start enjoying all the benefits of membership! </p>
+        <main class="main-login">
+            <section class="main-login-section1">
+                <h2 class="main-login-h2">USER LOGIN</h2>
+                <hr class="main-login-hr">
+                <p class="main-login-p">Fill in your credentials to login to your dashboard  and manage your account.</p>
             </section>
-            <section>
-                <div class="box" id="box-signup-btn">
-                    <button type="submit" class="main-signup-btn" id="main-signup-btn1"><a href="signup.html">As a Client</a></button>
-                    <button type="submit" class="main-signup-btn" id="main-signup-btn2"><a href="signup2.html">As a Therapist</a></button>
+            <section class="main-login-section2">
+                <div class="box">
+                    <form method="post" action="#">
+                        <div class="input-icons">
+                            <i class="fa fa-user icon"></i>
+                            <input type="text" name="Username" placeholder="Username" id="login-input1" class="login-input" value="" required>
+                        </div>
+                        <div class="input-icons">
+                            <!-- <i class="fa fa-eye" aria-hidden="true"></i> -->
+                            <i class="fa fa-eye-slash icon" aria-hidden="true"></i>
+                            <input type="password" name="password" placeholder="Password" id="login-input2" class="login-input" value="" required>
+                        </div>
+                        <div class="loginBtnDiv">
+                            <button type="submit" id="loginBtn">Login</button>
+                        </div>
+                        <p id="login-p">Don't have an account yet?<a href="signup_main.html">Create an account now!</a></p>
+                    </form>
                 </div>
             </section>
         </main>
+    </div>
+    
 
-         <!-- Footer -->
+        <!-- Footer -->
 			<footer id="footer">
 				<ul class="icons">
 					<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
@@ -74,15 +81,14 @@
 					<li>&copy; Techsol 2023. All rights reserved.</li>
 				</ul>
 			</footer>
-    </div>
-    
-     <!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+
+    <!-- Scripts -->
+ <script src="assets/js/jquery.min.js"></script>
+ <script src="assets/js/jquery.dropotron.min.js"></script>
+ <script src="assets/js/jquery.scrollex.min.js"></script>
+ <script src="assets/js/browser.min.js"></script>
+ <script src="assets/js/breakpoints.min.js"></script>
+ <script src="assets/js/util.js"></script>
+ <script src="assets/js/main.js"></script>
 </body>
 </html>
